@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
-class CustomTile extends StatelessWidget {
+class AnalyticsTile extends StatelessWidget {
   final String tileIconPath;
   final String tileName;
   final String tileDescription;
 
-  const CustomTile({
+  const AnalyticsTile({
     super.key,
     required this.tileIconPath,
     required this.tileName,

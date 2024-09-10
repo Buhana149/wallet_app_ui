@@ -4,7 +4,7 @@ import 'package:wallet_app_ui/home_page_ui.dart/app_bar_area.dart';
 import 'package:wallet_app_ui/home_page_ui.dart/card_balance.dart';
 import 'package:wallet_app_ui/home_page_ui.dart/cards_area.dart';
 import 'package:wallet_app_ui/home_page_ui.dart/my_button.dart';
-import 'package:wallet_app_ui/home_page_ui.dart/custom_tile.dart';
+import 'package:wallet_app_ui/home_page_ui.dart/analytics_tile.dart';
 import 'package:wallet_app_ui/home_page_ui.dart/nav_bar_iconbutton.dart';
 
 class HomePage extends StatefulWidget {
@@ -76,12 +76,12 @@ class _HomePageState extends State<HomePage> {
             padding: EdgeInsets.all(25.0),
             child: Column(
               children: [
-                CustomTile(
+                AnalyticsTile(
                   tileIconPath: 'lib/icons/analysis.png',
                   tileName: 'Statistics',
                   tileDescription: 'Payments and Income',
                 ),
-                CustomTile(
+                AnalyticsTile(
                   tileIconPath: 'lib/icons/transaction.png',
                   tileName: 'Transactions',
                   tileDescription: 'Transaction History',
