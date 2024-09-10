@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
-class MyButton extends StatelessWidget {
+class ImageButton extends StatelessWidget {
   final String imagePath;
   final String buttonName;
-  const MyButton({
+  const ImageButton({
     super.key,
     required this.imagePath,
     required this.buttonName,

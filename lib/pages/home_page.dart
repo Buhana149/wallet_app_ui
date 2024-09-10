@@ -61,15 +61,15 @@ class _HomePageState extends State<HomePage> {
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
-                MyButton(
+                ImageButton(
                   imagePath: 'lib/icons/transfer.png',
                   buttonName: 'Send',
                 ),
-                MyButton(
+                ImageButton(
                   imagePath: 'lib/icons/atm-card.png',
                   buttonName: 'Pay',
                 ),
-                MyButton(
+                ImageButton(
                   imagePath: 'lib/icons/bill.png',
                   buttonName: 'Bills',
                 ),
