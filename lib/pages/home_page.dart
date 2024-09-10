@@ -5,6 +5,7 @@ import 'package:wallet_app_ui/home_page_ui.dart/card_balance.dart';
 import 'package:wallet_app_ui/home_page_ui.dart/cards_area.dart';
 import 'package:wallet_app_ui/home_page_ui.dart/my_button.dart';
 import 'package:wallet_app_ui/home_page_ui.dart/custom_tile.dart';
+import 'package:wallet_app_ui/home_page_ui.dart/nav_bar_iconbutton.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -30,21 +31,15 @@ class _HomePageState extends State<HomePage> {
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: [
-              IconButton(
+              NavBarIconbutton(
+                icon: Icons.home,
+                color: Colors.pink[200],
                 onPressed: () {},
-                icon: Icon(
-                  Icons.home,
-                  size: 32,
-                  color: Colors.pink[200],
-                ),
               ),
-              IconButton(
+              NavBarIconbutton(
+                icon: Icons.settings,
+                color: Colors.grey[500],
                 onPressed: () {},
-                icon: Icon(
-                  Icons.settings,
-                  size: 32,
-                  color: Colors.grey[500],
-                ),
               ),
             ],
           ),
