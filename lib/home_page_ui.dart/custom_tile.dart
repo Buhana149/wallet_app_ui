@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
-class MyListTile extends StatelessWidget {
+class CustomTile extends StatelessWidget {
   final String tileIconPath;
   final String tileName;
   final String tileDescription;
 
-  const MyListTile({
+  const CustomTile({
     super.key,
     required this.tileIconPath,
     required this.tileName,

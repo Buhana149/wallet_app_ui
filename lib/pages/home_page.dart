@@ -4,7 +4,7 @@ import 'package:wallet_app_ui/home_page_ui.dart/app_bar_area.dart';
 import 'package:wallet_app_ui/home_page_ui.dart/card_balance.dart';
 import 'package:wallet_app_ui/home_page_ui.dart/cards_area.dart';
 import 'package:wallet_app_ui/home_page_ui.dart/my_button.dart';
-import 'package:wallet_app_ui/home_page_ui.dart/my_list_tile.dart';
+import 'package:wallet_app_ui/home_page_ui.dart/custom_tile.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -81,12 +81,12 @@ class _HomePageState extends State<HomePage> {
             padding: EdgeInsets.all(25.0),
             child: Column(
               children: [
-                MyListTile(
+                CustomTile(
                   tileIconPath: 'lib/icons/analysis.png',
                   tileName: 'Statistics',
                   tileDescription: 'Payments and Income',
                 ),
-                MyListTile(
+                CustomTile(
                   tileIconPath: 'lib/icons/transaction.png',
                   tileName: 'Transactions',
                   tileDescription: 'Transaction History',
